@@ -8,8 +8,23 @@ namespace Test_Preparation
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        
+                MethodA();
+            }
+            static void MethodA()
+            {
+                while (Peanut())
+                {
+                    Console.WriteLine("Yeah, I have got it");
+                }
+            }
+            static bool Peanut()
+            {
+                return true;
+            }
+
         }
+    }
+}
     }
 }
